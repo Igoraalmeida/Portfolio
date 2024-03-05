@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.banner{
+    width: 100%;
+    height:  30em;
+    margin: 0;
+    background-color: rgb(97, 71, 214);
+    background: linear-gradient(0deg, rgb(98, 71, 219) 90%, rgb(98, 0, 255) 100% );
+    /* background: linear-gradient(180deg, rgb(97, 71, 214) 90%, rgb(98, 0, 255) 100% ); */
+    
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+}
+.banner-content{
+    width: 47%;
+    padding: 120px 0 0 150px;
+    align-items: center;
+}
+.banner__title{
+    font-size: 90px;
+    margin: 0;
+    text-transform: uppercase;
+    transition: all .4s;
+}
+.banner__title:hover{
+    font-size: 85px;
+    color: black;
+}
+.banner__sub-description{
+    text-align: end;
+}
