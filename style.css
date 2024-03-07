@@ -8,9 +8,7 @@ body{
     height:  30em;
     margin: 0;
     background-color: rgb(97, 71, 214);
-    background: linear-gradient(0deg, rgb(98, 71, 219) 90%, rgb(98, 0, 255) 100% );
-    /* background: linear-gradient(180deg, rgb(97, 71, 214) 90%, rgb(98, 0, 255) 100% ); */
-    
+    background: linear-gradient(0deg, rgb(98, 71, 219) 90%, rgb(98, 0, 255) 100% );  
     font-weight: 600;
     font-size: 30px;
     color: white;
@@ -25,11 +23,28 @@ body{
     margin: 0;
     text-transform: uppercase;
     transition: all .4s;
+    text-shadow: 10px 10px 40px black;
+    clear: both;
 }
 .banner__title:hover{
     font-size: 85px;
     color: black;
+    text-shadow: none ;
 }
 .banner__sub-description{
     text-align: end;
+    letter-spacing: 3px;
+}
+.banner__description {
+    float: left;
+}
+.icones{
+    width: 60px;
+    height: 60px;   
+    float: left;
+    padding: 23px 0 0 10px;
+    transition: all .3s;
+}
+.icones:hover{
+    margin-top: -5px;
 }
