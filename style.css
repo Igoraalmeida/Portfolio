@@ -69,6 +69,8 @@ body{
     padding: 150px 30px 100px 80px;
     text-align: center;
     background: linear-gradient(180deg, rgb(98, 71, 219) 5%, rgb(255, 255, 255) 10%);
+    border-right: 10px solid rgba(0, 0, 0, 0.356);
+    border-left: 10px solid rgba(0, 0, 0, 0.356);
 }
 .main-content__title{
     grid-area: main-content__title;
@@ -76,8 +78,9 @@ body{
     font-size: 40px;
     text-transform: uppercase;
     font-weight: 800;
-    text-shadow: 10px 10px 60px black;
+    text-shadow: 10px 0px 80px black;
     color: #4e4e4e;
+
 }
 
 .main-content a{
