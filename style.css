@@ -24,6 +24,7 @@ body{
     text-transform: uppercase;
     transition: all .4s;
     text-shadow: 10px 10px 40px black;
+    text-align: end;
     clear: both;
 }
 .banner__title:hover{
@@ -38,12 +39,12 @@ body{
 }
 .download-icon{
     position: absolute;
-    right: 162px;
+    right: 145px;
     top: 30px;
 }
 .links{
     text-align: right;
-    padding: 110px 150px 0 0 ;
+    padding: 110px 0px 0 0 ;
     
 }
 .links a{
