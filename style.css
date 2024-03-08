@@ -28,7 +28,7 @@ body{
     clear: both;
 }
 .banner__title:hover{
-    font-size: 85px;
+    font-size: 75px;
     color: black;
     text-shadow: none ;
 }
@@ -38,9 +38,7 @@ body{
     float: left;
 }
 .download-icon{
-    position: absolute;
-    right: 145px;
-    top: 30px;
+    margin: -200px 0 50px 0;
 }
 .links{
     text-align: right;
