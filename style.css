@@ -21,9 +21,43 @@ body{
 .banner-content-side{
     width: 45%;
     padding: 2.5px;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     float: left;
+}
+.download-icon{
+    position: absolute;
+    right: 162px;
+    top: 30px;
+}
+.links{
+    text-align: right;
+    padding: 110px 150px 0 0 ;
+    
+}
+.links a{
+    text-decoration: none;
+    color: inherit;
+}
+.links li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 10px 0px;
+    transition: all .3s;
+}
+.links li:hover{
+    padding: 10px;
+}
+.links-icon{
+    width: 55px;
+    padding: 5px 0 0 10px;
+    border: 2px solid transparent;
+    transition: all .3s;
+}
+.links-icon:hover{
+    transform: scale(1.1);
 }
 .banner__title{
     font-size: 90px;
