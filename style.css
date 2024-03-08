@@ -1,3 +1,9 @@
+html{
+    scroll-behavior: smooth;
+}
+:target{
+    scroll-margin-top: .8em;
+}
 body{
     margin: 0;
     padding: 0;
@@ -26,6 +32,10 @@ body{
     text-shadow: 10px 10px 40px black;
     text-align: end;
     clear: both;
+    color: white;
+}
+.banner-content a{
+    text-decoration: none;
 }
 .banner__title:hover{
     font-size: 75px;
@@ -157,7 +167,7 @@ body{
 }
 .footer-links, .footer-links-1{
     text-align: center;
-    padding: 10px 50px;
+    padding: 40px 50px;
     letter-spacing: 1.5px;
 
 }
@@ -184,4 +194,17 @@ body{
 .footer-links-1 h2:hover{
     color: #011469;
     text-decoration: underline;
+}
+
+.botao-cima{
+    position: fixed;
+    left: 92%;
+    bottom: 5%;
+    width: 50px;
+    filter: opacity(40%);
+    transition: all .3s;
+}
+.botao-cima:hover{
+    filter: opacity(90%);
+    transform: scale(1.1);
 }
