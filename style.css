@@ -15,15 +15,15 @@ body{
 }
 .banner-content{
     width: 47%;
-    padding: 120px 0 0 150px;
+    padding: 120px 0 0 120px;
     float: left;
+    border: 1px solid red;
 }
 .banner-content-side{
-    width: 45%;
+    width: 40%;
     padding: 2.5px;
-    /* display: flex;
-    justify-content: center; */
     float: left;
+    border: 1px solid red;
 }
 .download-icon{
     position: absolute;
