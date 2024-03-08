@@ -18,6 +18,19 @@ body{
     padding: 120px 0 0 120px;
     float: left;
 }
+.banner__title{
+    font-size: 80px;
+    margin: 0;
+    text-transform: uppercase;
+    transition: all .4s;
+    text-shadow: 10px 10px 40px black;
+    clear: both;
+}
+.banner__title:hover{
+    font-size: 85px;
+    color: black;
+    text-shadow: none ;
+}
 .banner-content-side{
     width: 40%;
     padding: 2.5px;
@@ -57,19 +70,7 @@ body{
 .links-icon:hover{
     transform: scale(1.1);
 }
-.banner__title{
-    font-size: 90px;
-    margin: 0;
-    text-transform: uppercase;
-    transition: all .4s;
-    text-shadow: 10px 10px 40px black;
-    clear: both;
-}
-.banner__title:hover{
-    font-size: 85px;
-    color: black;
-    text-shadow: none ;
-}
+
 .banner__sub-description{
     text-align: end;
     letter-spacing: 3px;
