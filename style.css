@@ -57,9 +57,11 @@ body{
 }
 .col-1de2{
     grid-area: col-1de2;
+    transition: all .3s;
 }
 .col-2de2{
     grid-area: col-2de2;
+    transition: all .3s;
 }
 .main-content{
     display: grid;
@@ -71,6 +73,9 @@ body{
     background: linear-gradient(180deg, rgb(98, 71, 219) 5%, rgb(255, 255, 255) 10%);
     border-right: 10px solid rgba(0, 0, 0, 0.356);
     border-left: 10px solid rgba(0, 0, 0, 0.356);
+}
+.col-1de2:hover, .col-2de2:hover{
+    transform: scale(1.06);
 }
 .main-content__title{
     grid-area: main-content__title;
