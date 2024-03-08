@@ -10,20 +10,18 @@ body{
     background-color: rgb(97, 71, 214);
     background: linear-gradient(0deg, rgb(98, 71, 219) 90%, rgb(98, 0, 255) 100% );  
     font-weight: 600;
-    font-size: 30px;
+    font-size: 25px;
     color: white;
 }
 .banner-content{
     width: 47%;
     padding: 120px 0 0 120px;
     float: left;
-    border: 1px solid red;
 }
 .banner-content-side{
     width: 40%;
     padding: 2.5px;
     float: left;
-    border: 1px solid red;
 }
 .download-icon{
     position: absolute;
