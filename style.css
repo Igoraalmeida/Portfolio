@@ -32,14 +32,30 @@ body{
     color: black;
     text-shadow: none ;
 }
+.banner__sub-description{
+    text-align: end;
+    letter-spacing: 3px;
+}
+.banner__description {
+    float: left;
+}
 .banner-content-side{
     width: 40%;
     padding: 2.5px;
     float: left;
 }
+
+
+
 .download-icon{
     margin: -200px 0 50px 0;
+    transition: all .9s;
 }
+.download-icon:hover{
+    transform: translateY(20px);    
+}
+
+
 .links{
     text-align: right;
     padding: 110px 0px 0 0 ;
@@ -70,13 +86,8 @@ body{
     transform: scale(1.1);
 }
 
-.banner__sub-description{
-    text-align: end;
-    letter-spacing: 3px;
-}
-.banner__description {
-    float: left;
-}
+
+
 .icones{
     width: 60px;
     height: 60px;   
@@ -87,6 +98,8 @@ body{
 .icones:hover{
     margin-top: -5px;
 }
+
+
 .col-1de2{
     grid-area: col-1de2;
     transition: all .3s;
@@ -95,6 +108,10 @@ body{
     grid-area: col-2de2;
     transition: all .3s;
 }
+.col-1de2:hover, .col-2de2:hover{
+    transform: scale(1.06);
+}
+
 .main-content{
     display: grid;
     grid-template-areas: 
@@ -103,11 +120,6 @@ body{
     padding: 150px 30px 100px 80px;
     text-align: center;
     background: linear-gradient(180deg, rgb(98, 71, 219) 5%, rgb(255, 255, 255) 10%);
-    border-right: 10px solid rgba(0, 0, 0, 0.356);
-    border-left: 10px solid rgba(0, 0, 0, 0.356);
-}
-.col-1de2:hover, .col-2de2:hover{
-    transform: scale(1.06);
 }
 .main-content__title{
     grid-area: main-content__title;
@@ -119,11 +131,57 @@ body{
     color: #4e4e4e;
 
 }
-
 .main-content a{
     text-decoration: none;
     color: inherit;
 }
 .img-content{
     max-width: 100%;
+}
+.mostrar{
+    display: none;
+}
+.download-icon:hover .mostrar{
+    display: inline-block;
+}
+
+.footer{
+    width: 100%;
+    height: 18em;
+    background: #b9b9b9;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 100px 0;
+    box-shadow: 0px 0px 90px 10px #b9b9b9;
+    border-bottom: 20px solid #00000017;
+}
+.footer-links, .footer-links-1{
+    text-align: center;
+    padding: 10px 50px;
+    letter-spacing: 1.5px;
+
+}
+.footer-links li, .footer-links-1 li{
+    list-style: none;
+    padding: 8px;
+    display: inline-block;
+    transition: all .6s;
+    font-size: 20px;
+}
+.footer-links a, .footer-links-1 a{
+    color: #4e4e4e;
+    text-decoration: none;
+    
+}
+.footer-links li:hover, .footer-links-1 li:hover{
+    color: #011469;
+    text-decoration: underline;
+}
+.footer-links-1 h2{
+    color: black;
+    transition: all .5s;
+}
+.footer-links-1 h2:hover{
+    color: #011469;
+    text-decoration: underline;
 }
