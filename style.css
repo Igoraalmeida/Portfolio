@@ -181,7 +181,7 @@ body{
 .sobre-mim-content{
     width: 100%;
     height: auto;
-    padding: 50px 0px;
+    padding: 50px 0px 150px 0;
     border-top: solid 10px #e0e0e018;
     background-color: #e0e0e03b;
     display: grid;
