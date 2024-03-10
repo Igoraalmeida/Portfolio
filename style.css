@@ -213,6 +213,7 @@ body{
 .experiencia{
     margin: 0 auto;
     grid-area: experiencia;
+    padding-right: 80px ;
 }
 .experiencia-links{
     text-decoration: none;
