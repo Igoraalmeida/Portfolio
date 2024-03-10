@@ -178,11 +178,13 @@ body{
 }
 
 .sobre-mim-content{
+    width: 100%;
     height: auto;
-    padding: 50px 200px;
+    padding: 50px 0px;
     border-top: solid 10px #e0e0e018;
     background-color: #e0e0e03b;
     display: grid;
+    grid-template-columns: 50% 50%;
     grid-template-areas: 
     "titulo-sobre-mim titulo-sobre-mim"
     "   linguagens    experiencia"; 
@@ -203,9 +205,10 @@ body{
     align-items: center;
     display: flex;
     grid-area: linguagens;
+    /* padding-right: 100px; */
 }
 .linguagens img{
-    width: 95px;
+    width: 100px;
 }
 .experiencia{
     margin: 0 auto;
@@ -284,4 +287,11 @@ body{
 .botao-cima:hover{
     filter: opacity(90%);
     transform: scale(1.1);
+}
+
+
+@media (max-width: 1850px) {
+    .banner__title{
+        font-size: 65px;
+    }
 }
