@@ -292,8 +292,122 @@ body{
 }
 
 
-@media (max-width: 1850px) {
+
+
+
+@media screen and (max-width: 1850px) {
     .banner__title{
         font-size: 65px;
+    }
+    .banner__title:hover{
+        font-size: 63px;
+    }
+}
+
+
+/* mobile */
+@media screen and (max-width: 540px){
+    .banner-content{
+        width: 100%;
+        height: auto;
+        padding: 0;
+        font-size: 20px;
+
+    }
+    .banner__description{
+        float: none;
+        text-align: center;
+        padding: 30px 0;
+    }
+    .banner__sub-description{
+        text-align: center;
+        padding: 30px 10px;
+    }
+    .icones{
+        display: none;
+    }
+    .banner__title{
+        font-size: 60px;
+        text-align: center;
+        padding: 20px 0;
+    }
+    .banner-content-side{
+        float: none;
+        width: 100%;
+    }
+
+
+
+    .links{
+        padding: 0;
+        display: inline-block;
+        width: 100%;
+        padding: 50px 0;
+    }
+    .links a{
+        background-color: rgba(0, 0, 0, 0.288) ;
+        border-radius: 50px;
+    }
+    .links li{
+        padding: 15px 40px;
+        display: inline-block;
+    }
+    .links li:hover{
+        padding: 15px 40px;
+        letter-spacing: normal;
+        transform: scale(1.1);
+    }
+    .links ul{
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .links h3{
+        display: none;
+    }
+    .download-icon, .links-icon{
+        display: none;
+    }
+
+
+    .main-content__title{
+        padding: 100px 0 80px 0;
+    }
+    .col-1de2, .col-2de2, .col-3de4, .col-4de4{
+        padding: 50px 0;
+    }
+    .main-content{
+        padding: 100px 0 50px 20px;
+        display: block;
+    }
+
+
+
+    .sobre-mim-content{
+        display: inline-block;
+    }
+    .titulo-sobre-mim{
+        padding-bottom: 40px ;
+    }
+    .linguagens{
+        padding: 20px 0 100px 0;
+    }
+    .linguagens img{
+        width: 90px;
+    }
+    .experiencia{
+        padding: 0 20px;
+    }
+
+    .footer{
+        display: inline-block;
+        height: auto;
+    }
+    .footer-links ul{
+        padding: 30px 0 10px 0;
+    }
+    .botao-cima{
+        display: none;
     }
 }
