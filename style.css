@@ -19,7 +19,7 @@ body{
     height:  30em;
     margin: 0;
     background-color: rgb(97, 71, 214);
-    background: linear-gradient(0deg, #8a05be 90%, rgb(98, 0, 255) 100% );  
+    background: linear-gradient(0deg, rgb(98, 71, 219) 90%, rgb(98, 0, 255) 100% );  
     font-weight: 600;
     font-size: 25px;
     color: white;
