@@ -4,7 +4,31 @@ html{
 /* ::-webkit-scrollbar {
     width: 0;
 } */
-
+nav{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    background-color: rgb(98, 0, 255);
+    /* position: fixed;
+    width: 100%; */
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+nav a{
+    color: inherit;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    padding: 50px 50px 0px 50px;
+    transition: all .3s;
+}
+nav a:hover{
+    transform: scale(1.1)
+}
 :target{
     scroll-margin-top: .8em;
 }
@@ -75,6 +99,9 @@ body{
     text-align: right;
     padding: 110px 0px 0 0 ;
     
+}
+.links ul{
+    display: inline-block;
 }
 .links a{
     text-decoration: none;
@@ -414,6 +441,7 @@ body{
         text-align: center;
     }
     .botao-cima{
-        display: none;
+        /* display: none; */
+        left: 80%;
     }
 }
