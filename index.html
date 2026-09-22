@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>">
     <script src="https://unpkg.com/scrollreveal"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Portfólio</title>
@@ -18,15 +19,14 @@
         
         <header class="banner"> 
             <div class="banner-content">
-                <p class="banner__description">Oi👋 eu sou Igor Almeida</p>
+                <p class="banner__description">Oi👋,sou Igor Almeida</p>
 
                 <img class="icones" src="/imgs/HTML5-sem_cor.png" onmouseover="this.src='/imgs/HTML5-colorido.png'" onmouseout="this.src='/imgs/HTML5-sem_cor.png'">
                 <img class="icones" src="/imgs/CSS3-sem_cor.png"  onmouseover="this.src='/imgs/CSS3-colorido.png'" onmouseout="this.src='/imgs/CSS3-sem_cor.png'">
                 <img class="icones" src="/imgs/JS-sem_cor.png"    onmouseover="this.src='/imgs/JS-colorido.png'" onmouseout="this.src='/imgs/JS-sem_cor.png'">
 
                 <a href="#projetos"> <h2 class="banner__title">FrontEnd Developer</h2></a>
-                <p class="banner__sub-description">Tenho 23 anos sou desenvolverdor frontend e estou em busca de novos desafios.
-                </p>
+                <p class="banner__sub-description">Desenvolvedor front-end focado em código limpo, soluções reais e pronto para novos desafios.</p>
             </div>
 
             <div class="banner-content-side"> 
@@ -34,7 +34,7 @@
                 <div class="links">
                 
                 <div class="passar_mouse"><div class="mostrar"> Download da Página</div> </div>
-                <img class="download-icon" src="/imgs/icons8-baixar-atualizações-50.png">
+                <!-- <img class="download-icon" src="/imgs/icons8-baixar-atualizações-50.png"> -->
                 <h3>Links</h3>
                 
                 <ul>
@@ -62,7 +62,23 @@
             
             <h2 id="projetos" class="main-content__title"> Projetos 👨‍💻 </h2>
             
-            <div class="col-1de2">
+            <div class="col col-1de2">
+                <a target="_blank" href="https://naconta.online/"> 
+                    <img class="img-content" src="/imgs/site-responsivo-4.png">
+                    <p>Finanças Pessoais</p>
+                    <h3>NaConta — Site de organização e planejamento financeiro</h3>
+                </a>
+            </div>
+
+            <div class="col col-2de2">
+                <a target="_blank" href="https://central-ferramentas.vercel.app"> 
+                    <img class="img-content" src="/imgs/site-responsivo-3.png">
+                    <p>Aplicação Web</p>
+                    <h3>MixTools — central de ferramentas que une múltiplos projetos</h3>
+                </a>
+            </div>
+
+            <div class="col col-3de4">
                 <a target="_blank" href="https://projeto-infusion-six.vercel.app" > 
                     <img  class="img-content" src="/imgs/site-responsivo-1.png">
                     <p>Estudo de Javascript</p>
@@ -70,28 +86,12 @@
                 </a>
             </div>
 
-            <div class="col-2de2">
+            <div class="col col-4de4">
                 <a target="_blank" href="https://projeto-range-hotels-responsivo.vercel.app">
                     <img  class="img-content" src="/imgs/site-responsivo-2.png">
                     <p>Projeto de Estudo</p>
                     <h3>Site de Hotéis</h3>
-                </a>   
-            </div>
-
-            <div class="col-3de4">
-                <a target="_blank" href="https://central-ferramentas.vercel.app" > 
-                    <img  class="img-content" src="/imgs/site-responsivo-3.png">
-                    <p>Projeto de Estudo</p>
-                    <h3>MixTools um site de ferramentas que uni outros dois projetos </h3>
                 </a>
-            </div>
-
-            <div class="col-4de4">
-                <a target="_blank" href="https://github.com/Igoraalmeida">
-                    <img  class="img-content" src="/imgs/Moldura-em-breve.png">
-                    <p>Projeto em andamento</p>
-                    <h3>Em Breve</h3>
-                </a>   
             </div>
         </div>
 
@@ -104,45 +104,47 @@
                 <img src="/imgs/html-sobre-mim.png">
                 <img src="/imgs/css-sobre-mim.png">
                 <img src="/imgs/js-sobre-mim.png">
+                <img src="/imgs/react-sobre-mim.svg">
                 <img src="/imgs/git-sobre-mim.png">
             </div>
 
             <div class="experiencia"> 
 <!-- Experiencias -->
                 <div class="experiencia-divs" style="border-top: 0;">
-                    <p style="text-align: end; font-style: italic; margin: 0; font-weight: bold; padding-top:50px ;">Trabalho Atual</p>
-                    <h3>Estoquista - Eletromec</h3>
-                    <p style="color: brown; font-weight: bold;" >Março de 2024</p>
+                    <p style="text-align: end; font-style: italic; margin: 0; font-weight: bold; padding-top: 50px;">Fevereiro 2025 - Atual</p>
+                    <h3>Desenvolvedor Front-End</h3>
+                    <p style="color: brown; font-weight: bold;">Freelancer</p>
 
-                    <p style="font-size: 19px; line-height: 1.5em;">Empresa de manutenção e venda de Máquinas e Equipamentos para Conservação e Jardinagem Profissional</p>
-
-                    <p>Funções:</p>
-                    <ul>
-                        <li>Contagem e Gerenciamento de Estoque</li>
-                        <li>Teste em Máquinas Elétricas e a Gasolina</li>
-                        <li>Responsável por entrada e saída de mercadorias</li>
-                        <li>Atendimento ao Cliente</li>
+                    <ul style="font-size: 18px; line-height: 1.6em;">
+                        <li>Criação de interfaces responsivas e componentes reutilizáveis utilizando HTML, CSS e JavaScript;</li>
+                        <li>Utilização de Git/GitHub para versionamento e organização dos projetos.</li>
                     </ul>
+
+                    <!-- <p>Projetos:</p> -->
+                    <!-- <a class="experiencia-links" target="_blank" href="https://www.infratele.com.br"> 🔗 Infratele</a><br> -->
                 </div>
 
                 <div class="experiencia-divs">
-                    <p style="text-align: end; font-style: italic; margin: 0; font-weight: bold; padding-top:50px ;">Freelancer</p>
-                    <h3>1 ano e meio de experiência como Freelancer</h3>
-                    <p style="color: brown; font-weight: bold;" >Home Office</p>
-                    
-                    <p style="font-size: 19px; line-height: 1.5em;">No terceiro período, como formação complementar, me aprofundei no curso de desenvolvedor WEB e segui desenvolvendo projetos por conta propria. Alguns com auxilio do Wordpress.</p>
-                    
-                    <p>Projetos:</p>
-                    <a class="experiencia-links" target="_blank" href="https://www.infratele.com.br"> 🔗 Infratele</a><br>
+                    <p style="text-align: end; font-style: italic; margin: 0; font-weight: bold; padding-top: 50px;">Março 2024 - Outubro 2025</p>
+                    <h3>Suporte Técnico</h3>
+                    <p style="color: brown; font-weight: bold;">Prime Tech Informática</p>
+
+                    <ul style="font-size: 18px; line-height: 1.6em;">
+                        <li>Diagnóstico de hardware e software;</li>
+                        <li>Instalação de Windows e Linux;</li>
+                        <li>Manutenção preventiva e corretiva;</li>
+                        <li>Suporte remoto e presencial;</li>
+                        <li>Atendimento ao cliente.</li>
+                    </ul>
                 </div>
 
                 <div class="experiencia-divs" style="border-bottom: 2px solid gray;">
                     <p style="text-align: end; font-style: italic; margin: 0; font-weight: bold; padding-top: 50px;">Ago 2020 - Dez 2023</p>
                     <h3 style="margin: 8px 0;">Graduação em Análise e Desenvolvimento de Sistemas</h3>
                     
-                    <p style="color: brown; font-weight: bold" >Univerdade Estácio de Sá - Teresópolis</p>
+                    <p style="color: brown; font-weight: bold;">Universidade Estácio de Sá - Teresópolis</p>
 
-                    <p style="font-size: 19px; line-height: 1.5em;">Tive a oportunidade de conhecer varias áreas da tecnologia e me apaixonar pelo frontend.</p>
+                    <p style="font-size: 19px; line-height: 1.5em;">Tive a oportunidade de conhecer várias áreas da tecnologia e me apaixonar pelo frontend.</p>
                 </div>
 
                 
